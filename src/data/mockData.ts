@@ -44,11 +44,11 @@ export const properties: Property[] = [
     guests: 4,
     bedrooms: 2,
     bathrooms: 2,
-    image: "/src/assets/property-1.jpg",
+    image: "/property-1.jpg",
     images: [
-      "/src/assets/property-1.jpg",
-      "/src/assets/hero-1.jpg",
-      "/src/assets/hero-2.jpg",
+      "/property-1.jpg",
+      "/hero-1.jpg",
+      "/hero-2.jpg",
     ],
     amenities: [
       {
@@ -92,11 +92,11 @@ export const properties: Property[] = [
     guests: 6,
     bedrooms: 3,
     bathrooms: 2,
-    image: "/src/assets/property-2.jpg",
+    image: "/property-2.jpg",
     images: [
-      "/src/assets/property-2.jpg",
-      "/src/assets/hero-2.jpg",
-      "/src/assets/hero-3.jpg",
+      "/property-2.jpg",
+      "/hero-2.jpg",
+      "/hero-3.jpg",
     ],
     amenities: [
       {
@@ -140,11 +140,11 @@ export const properties: Property[] = [
     guests: 4,
     bedrooms: 2,
     bathrooms: 1,
-    image: "/src/assets/property-3.jpg",
+    image: "/property-3.jpg",
     images: [
-      "/src/assets/property-3.jpg",
-      "/src/assets/hero-1.jpg",
-      "/src/assets/hero-3.jpg",
+      "/property-3.jpg",
+      "/hero-1.jpg",
+      "/hero-3.jpg",
     ],
     amenities: [
       {
