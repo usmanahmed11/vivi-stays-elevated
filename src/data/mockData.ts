@@ -1,3 +1,11 @@
+// Import images as modules so Vite can process them
+import property1 from "@/assets/property-1.jpg";
+import property2 from "@/assets/property-2.jpg";
+import property3 from "@/assets/property-3.jpg";
+import hero1 from "@/assets/hero-1.jpg";
+import hero2 from "@/assets/hero-2.jpg";
+import hero3 from "@/assets/hero-3.jpg";
+
 export interface Property {
   id: string;
   title: string;
@@ -44,11 +52,11 @@ export const properties: Property[] = [
     guests: 4,
     bedrooms: 2,
     bathrooms: 2,
-    image: "/src/assets/property-1.jpg",
+    image: property1,
     images: [
-      "/src/assets/property-1.jpg",
-      "/src/assets/hero-1.jpg",
-      "/src/assets/hero-2.jpg",
+      property1,
+      hero1,
+      hero2,
     ],
     amenities: [
       {
@@ -92,11 +100,11 @@ export const properties: Property[] = [
     guests: 6,
     bedrooms: 3,
     bathrooms: 2,
-    image: "/src/assets/property-2.jpg",
+    image: property2,
     images: [
-      "/src/assets/property-2.jpg",
-      "/src/assets/hero-2.jpg",
-      "/src/assets/hero-3.jpg",
+      property2,
+      hero2,
+      hero3,
     ],
     amenities: [
       {
@@ -140,11 +148,11 @@ export const properties: Property[] = [
     guests: 4,
     bedrooms: 2,
     bathrooms: 1,
-    image: "/src/assets/property-3.jpg",
+    image: property3,
     images: [
-      "/src/assets/property-3.jpg",
-      "/src/assets/hero-1.jpg",
-      "/src/assets/hero-3.jpg",
+      property3,
+      hero1,
+      hero3,
     ],
     amenities: [
       {
