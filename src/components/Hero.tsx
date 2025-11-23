@@ -1,23 +1,26 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import hero1 from "@/assets/hero-1.jpg";
+import hero2 from "@/assets/hero-2.jpg";
+import hero3 from "@/assets/hero-3.jpg";
 
 const Hero = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
   
   const slides = [
     {
-      image: "/hero-1.jpg",
+      image: hero1,
       title: "Luxury Short-Term Rentals",
       subtitle: "Experience premium stays in the heart of the city",
     },
     {
-      image: "/hero-2.jpg",
+      image: hero2,
       title: "Your Home Away From Home",
       subtitle: "Thoughtfully designed spaces for modern travelers",
     },
     {
-      image: "/hero-3.jpg",
+      image: hero3,
       title: "Seamless Booking Experience",
       subtitle: "Direct bookings with no hidden fees",
     },
